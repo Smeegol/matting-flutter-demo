@@ -1,0 +1,29 @@
+PODS:
+  - Flutter (1.0.0)
+  - matting_plugin (0.0.1):
+    - Flutter
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - matting_plugin (from `.symlinks/plugins/matting_plugin/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  matting_plugin:
+    :path: ".symlinks/plugins/matting_plugin/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  matting_plugin: 3851d4e4067fb67fe9f48e90c68e6a615c87be79
+  path_provider_foundation: 2b6b4c569c0fb62ec74538f866245ac84301af46
+
+PODFILE CHECKSUM: c3c82482734b705b13abe356a0b2a6c1ced26ff3
+
+COCOAPODS: 1.15.2
