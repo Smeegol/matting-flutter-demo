@@ -10,4 +10,5 @@ iOS需先下载[opencv-4.10.0-ios-framework.zip](https://github.com/opencv/openc
 3. Flutter 3.22.3
 
 Android也是类似，JNI调用OpenCV C++代码，因家庭电脑存储空间不足，未安装配置相应开发环境进行实现。
+
 最好维护同一套OpenCV C++代码，供插件的双端原生调用。
