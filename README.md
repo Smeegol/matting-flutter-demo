@@ -1,5 +1,7 @@
 # matting-flutter-demo
 
+![模拟器运行截图](screenshot.png)
+
 ## 编译运行
 
 iOS需先下载[opencv-4.10.0-ios-framework.zip](https://github.com/opencv/opencv/releases/download/4.10.0/opencv-4.10.0-ios-framework.zip)文件，解压缩得`opencv2.framework`文件，将它移动到`/matting_plugin/ios/libs`中去。后续常规编译运行`/matting`Flutter项目。
