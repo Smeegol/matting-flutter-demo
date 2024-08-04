@@ -31,6 +31,10 @@ public class MattingPlugin: NSObject, FlutterPlugin {
         
         let originMat = Imgcodecs.imread(filename: originPath, flags: ImreadModes.IMREAD_COLOR.rawValue)
         let maskMat = Imgcodecs.imread(filename: maskPath, flags: ImreadModes.IMREAD_GRAYSCALE.rawValue)
+        if originMat.empty() || originMat.empty() {
+            print("Images not found")
+            return nil
+        }
         if originMat.width() != maskMat.width() || originMat.height() != maskMat.height() {
             print("Images' sizes not same")
             return nil

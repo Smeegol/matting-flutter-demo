@@ -1,6 +1,6 @@
 # matting-flutter-demo
 
-## iOS运行截图
+## 运行截图
 
 ![iOS运行截图](screenshot.png)
 
